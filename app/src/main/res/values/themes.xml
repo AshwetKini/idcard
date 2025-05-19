@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme using Material 3 -->
+    <style name="Base.Theme.Idcard" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <!-- Background color -->
+<!--        <item name="colorBackground">@color/md_theme_light_background</item>-->
+        <!-- Surface color (used for cards, sheets, etc.) -->
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <!-- Text colors -->
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+
+        <!-- Customize typography or shape if needed -->
+        <!-- <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Material3.Corner.Small</item> -->
+        <!-- <item name="typographyFamily">your_custom_font</item> -->
+    </style>
+
+    <!-- Actual app theme (can switch between variants if needed) -->
+    <style name="Theme.Idcard" parent="Base.Theme.Idcard" />
+
+    <color name="md_theme_light_primary">#1A237E</color>
+    <color name="md_theme_light_secondary">#4A148C</color>
+</resources>

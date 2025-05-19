@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/createCardFragment">
+
+    <fragment
+        android:id="@+id/createCardFragment"
+        android:name="com.truspirit.idcard.CreateCardFragment"
+        android:label="Create Card" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.truspirit.idcard.HistoryFragment"
+        android:label="History" />
+</navigation>

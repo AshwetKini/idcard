@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- Allow sharing anything under your app's external‑files/… directory -->
+<external-files-path name="external_files" path="."/>
+<!-- Allow sharing cache files too, which is where you're writing cropped images -->
+<cache-path          name="cache"          path="."/>
+</paths>

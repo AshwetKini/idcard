@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">idcard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_emp_number">Employee Number</string>
+    <string name="hint_mobile">Mobile Number</string>
+    <string name="btn_select_photo">Select Photo</string>
+    <string name="btn_generate_share">Generate &amp; Share</string>
+    <string name="default_name">Name</string>
+    <string name="default_emp_number">Emp No.</string>
+    <string name="default_mobile">Mobile</string>
+    <string name="cd_header_logo">Company Logo</string>
+    <string name="cd_employee_photo">Employee Photo</string>
+    <string name="cd_footer_logo">Footer Logo</string>
+    <string name="designation">Designation</string>
+    <string-array name="designation_array">
+        <item>Select Designation</item> <!-- hint-like default -->
+        <item>Business Development Officer</item>
+        <item>Relational Officer</item>
+    </string-array>
+
+</resources>
